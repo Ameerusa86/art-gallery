@@ -11,12 +11,7 @@ import { useState } from "react";
 import Link from "next/link";
 
 export default function UploadButtonPage() {
-  const [images, setImages] = useState<
-    {
-      fileUrl,
-      fileKey
-    }[]
-  >([]);
+  const [images, setImages] = useState([]);
 
   const title = images.length ? (
     <>
