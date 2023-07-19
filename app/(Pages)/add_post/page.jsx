@@ -1,5 +1,5 @@
-import PostForm from "@/Components/PostForm";
-import UploadDnD from "@/app/api/upload-dnd/page";
+import PostForm from "../../../Components/PostForm";
+// import UploadDnD from "@/app/api/upload-dnd/page";
 import React from "react";
 
 const AddPost = () => {
