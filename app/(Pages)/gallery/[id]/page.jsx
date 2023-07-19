@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import DeleteButton from "@/Components/DeleteButton";
+import DeleteButton from "../../../../Components/DeleteButton";
 
 const getData = async (id) => {
   const response = await fetch(`http://localhost:3000/api/gallery/${id}`, {

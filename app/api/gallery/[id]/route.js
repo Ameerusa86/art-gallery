@@ -1,11 +1,11 @@
-import Post from "@/Model/Post";
-import ConnectDB from "@/lib/ConnectDB";
+import Post from "../../../../Model/Post";
+import ConnectDB from "../../../../lib/ConnectDB";
 import { NextResponse } from "next/server";
 
 // HTTP GET /api/gallery/:id
 // Get a post by id
 // Route /api/gallery/:id
-export const GET = async (req: any, { params }: any) => {
+export const GET = async (req, { params }) => {
   const { id } = params;
 
   try {
@@ -21,7 +21,7 @@ export const GET = async (req: any, { params }: any) => {
 // Delete a post by id
 // Route /api/gallery/:id
 
-export const DELETE = async (req: any, { params }: any) => {
+export const DELETE = async (req, { params }) => {
   const { id } = params;
 
   try {

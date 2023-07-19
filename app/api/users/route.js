@@ -1,5 +1,5 @@
-import User from "@/Model/User";
-import ConnectDB from "@/lib/ConnectDB";
+import User from "../../../Model/User";
+import ConnectDB from "../../../lib/ConnectDB";
 import { NextResponse } from "next/server";
 
 // HTTP Method GET /users
